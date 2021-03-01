@@ -36,6 +36,12 @@ Open a `PowerShell` command line to follow the steps below.
      cd iis
      .\build_release_amd64.bat
      ```
+     
+     If there is an error like:
+     Checking for vcargs... "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\vcvarsx86_amd64.bat"
+     The system cannot find the path specified.
+     
+     Then download and install Microsoft Visual Studio 2013 from https://my.visualstudio.com/Downloads?q=2013 and retry.
  
  This will produce the binaries and place them into `ModSecurity\iis\release\amd64` directory.
 
